@@ -1,4 +1,5 @@
 country: dict = {}
+
 for _ in range(int(input())):
     list_city = input().split()
     country[list_city[0]] = list_city[1:]
